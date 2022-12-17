@@ -1,0 +1,102 @@
+.homeMain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.homeMain input{
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+.homeMain button{
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.logoutbutton{
+  cursor: pointer;
+  margin-right: 20px;
+}
+.navbar{
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+.flex{
+  display: flex;
+}
+a{
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+.active{
+  color:blueviolet;
+  font-weight:900;
+}
+.table{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px 0px;
+  width: 500px;
+}
+.value{
+  padding: 0px 5px;
+}
+.addCategory{
+  font-weight: 900;
+  cursor: pointer;
+  color: brown;
+}
+.addNew{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.addNew input{
+  padding: 5px;
+}
+.addNew button{
+  padding: 5px;
+  margin: 10px 5px;
+  width: 100px;
+  
+}
+.tableHeading{
+  font-weight: 900;
+}
+.update,.delete{
+  cursor: pointer;
+}
+.update:hover{
+  color: blue;
+}
+.delete:hover{
+  color:red;
+}
+.notification{
+  color:red;
+  font-weight: bolder;
+}
+.forgotPassword{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.forgotPassword *{
+  padding:5px;
+  margin: 5px;
+}
